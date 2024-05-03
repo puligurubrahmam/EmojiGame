@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.bg {
+  background-image: linear-gradient(140deg, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.list-container {
+  list-style-type: none;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.innerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .bg {
+    height: 100vh;
+  }
+  .innerCard {
+    padding: 10px;
+  }
+}

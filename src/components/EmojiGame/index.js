@@ -1,11 +1,3 @@
-/* 
-Quick Tip 
-
-- Use the below function in the EmojiGame Component to shuffle the emojisList every time when an emoji is clicked.
-
-
-
-*/
 import './index.css'
 import NavBar from '../../components/NavBar'
 import WinOrLoseCard from '../../components/WinOrLoseCard'
